@@ -14,13 +14,31 @@ if __name__ == "__main__":
 	cmd.add_argument("--job", "-j", help="One of: SWE, RE, SE, HE")
 	cmd.add_argument("--subcategory", "-c", help="Sub category (index)")
 	cmd.add_argument("--employee_name", "-e", help="Employee name")
-	cmd.add_argument("--city", help="City", default="11")
+	cmd.add_argument("--city", help="City", default=11, type=int)
 	cmd.add_argument("--employment", "-y", help="Level of employment")
 	cmd.add_argument("--from_date", "-f", help="Valid from")
 	cmd.add_argument("--internal", "-i", help="Internal Designation")
 	cmd.add_argument("--date", "-d", help="Date of today")
+	cmd.add_argument("--operational", "-o", help="Operational Function", type=int, default=1)
+	cmd.add_argument("--show", help="Show table of drop-box entries", action='store_true') 
 
 	args = cmd.parse_args()
+
+	if (args.show):
+		print("\nAll funtion levels (For Engineering you just need the function level - this table is not useful for you)")
+		for v in Function_level.items():
+			print(v)
+		print("\nUnit (this is also not useful, since we usually out USYS, but these are the units available in the pdf)")
+		for v in Unit.items():
+			print(v)
+		print("\nOperational codes")
+		for v in Operational_function.items():
+			print(v)
+		print("\nCities (you need to write the index to select the proper string)")
+		for v in city.items():
+			print(v)
+
+		quit()
 
 	#print("Is this the right function level:", Function_level[args.function_level-1])
 	#check = input("?")
@@ -37,7 +55,7 @@ if __name__ == "__main__":
 
 		print("<<")
 		print("/T (Combo Box 5)")
-		print("/V (" + args.city + ")")
+		print("/V (" + city[args.city] + ")")
 		print(">>")
 		print("<<")
 		print("/T (22)")
@@ -89,7 +107,7 @@ if __name__ == "__main__":
 		print(">> ")
 		print("<<")
 		print("/T (Combo Box 7)")
-		print("/V (" + args.internal + ")")
+		print("/V (" + Operational_function[args.operational] + ")")
 		print(">> ")
 		print("<<")
 		print("/T (31)")
@@ -149,7 +167,7 @@ if __name__ == "__main__":
 		print(">> ")
 		print("<<")
 		print("/T (7)")
-		print("/V (CSCS)")
+		print("/V (" + "CSCS" + ")")
 		print(">> ")
 		print("<<")
 		print("/T (8)")
