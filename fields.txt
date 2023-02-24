@@ -1,0 +1,264 @@
+---
+FieldType: Choice
+FieldName: 2
+FieldFlags: 4325376
+FieldValue: Please choose
+FieldValueDefault: Please choose
+FieldJustification: Left
+FieldStateOption: Please choose
+FieldStateOption: 4021-I IT support (1st level) / 03
+FieldStateOption: 4022-I IT support (1st level) / 04
+FieldStateOption: 4023-I IT support (1st level) / 05
+FieldStateOption: 4031-I Contact IT support (2nd level) / programming / 05
+FieldStateOption: 4032-I Contact IT support (2nd level) / programming / 06
+FieldStateOption: 4033-I Contact IT support (2nd level) / programming / 07
+FieldStateOption: 4041-I System specialist (3rd level) / software engineering / 07
+FieldStateOption: 4042-I System specialist (3rd level) / software engineering / 08
+FieldStateOption: 4043-I System specialist (3rd level) / software engineering / 09
+FieldStateOption: 4044-I System specialist (3rd level) / software engineering / 10
+FieldStateOption: 5011-I IT group management / 04
+FieldStateOption: 5012-I IT group management / 05
+FieldStateOption: 5013-I IT group management / 06
+FieldStateOption: 5021-I IT head technical fields / 06
+FieldStateOption: 5022-I IT head technical fields / 07
+FieldStateOption: 5023-I IT head technical fields / 08
+FieldStateOption: 5024-I IT head technical fields / 09
+FieldStateOption: 5031-T IT head scientific fields / 09
+FieldStateOption: 5032-T IT head scientific fields / 10
+FieldStateOption: 5033-T IT head scientific fields / 11
+FieldStateOption: 5034-T IT head scientific fields / 12
+---
+FieldType: Choice
+FieldName: Combo Box 7
+FieldFlags: 4325376
+FieldValue: Please choose
+FieldValueDefault: Please choose
+FieldJustification: Left
+FieldStateOption: Please choose
+FieldStateOption: Application developer
+FieldStateOption: Computer scientist
+FieldStateOption: Database specialist
+FieldStateOption: Group leader
+FieldStateOption: IC advisor
+FieldStateOption: IC technician
+FieldStateOption: Intern
+FieldStateOption: Project leader
+FieldStateOption: Project staff
+FieldStateOption: Section leader
+FieldStateOption: System controller
+FieldStateOption: System specialist
+FieldStateOption: Telematician
+FieldStateOption: Unit leader
+---
+FieldType: Text
+FieldName: 4
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Choice
+FieldName: Combo Box 3
+FieldFlags: 4325376
+FieldValue: No
+FieldValueDefault: Please choose
+FieldJustification: Left
+FieldStateOption: Please choose
+FieldStateOption: Yes
+FieldStateOption: No
+---
+FieldType: Text
+FieldName: 6
+FieldFlags: 4096
+FieldValue: Brief_Description
+FieldJustification: Left
+---
+FieldType: Choice
+FieldName: Combo Box 4
+FieldFlags: 4325376
+FieldValue: USYS
+FieldValueDefault: Please choose
+FieldJustification: Left
+FieldStateOption: Please choose
+FieldStateOption: ARCH
+FieldStateOption: BAUG
+FieldStateOption: BIOL
+FieldStateOption: BSSE
+FieldStateOption: CHAB
+FieldStateOption: ERDW
+FieldStateOption: GESS
+FieldStateOption: HEST
+FieldStateOption: INFK
+FieldStateOption: ITET
+FieldStateOption: MATH
+FieldStateOption: MATL
+FieldStateOption: MAVT
+FieldStateOption: MTEC
+FieldStateOption: PHYS
+FieldStateOption: USYS
+FieldStateOption: Executive Board
+FieldStateOption: Staff unit (Stab)
+FieldStateOption: Administrative department
+FieldStateOption: Educational and research facilities
+FieldStateOption: Other
+---
+FieldType: Text
+FieldName: 7
+FieldFlags: 4096
+FieldValue: Organizational_Unit
+FieldJustification: Left
+---
+FieldType: Choice
+FieldName: Combo Box 5
+FieldFlags: 4325376
+FieldValue: Please choose
+FieldValueDefault: Please choose
+FieldJustification: Left
+FieldStateOption: Please choose
+FieldStateOption: Zurich City
+FieldStateOption: Ascona
+FieldStateOption: Basel
+FieldStateOption: Bern
+FieldStateOption: Birmensdorf
+FieldStateOption: D&#252;bendorf
+FieldStateOption: Kastanienbaum
+FieldStateOption: Lausanne
+FieldStateOption: Lindau mit AgroVet-Strickhof
+FieldStateOption: Lugano
+FieldStateOption: R&#252;schlikon
+FieldStateOption: Schwerzenbach
+FieldStateOption: Singapore
+---
+FieldType: Text
+FieldName: 8
+FieldFlags: 4096
+FieldValue: Supervisor_Name
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 9
+FieldFlags: 4096
+FieldValue: Employee_Name
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 10
+FieldFlags: 4096
+FieldValue: Level_of_Employment
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 11
+FieldFlags: 4096
+FieldValue: Valid_From
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 14
+FieldFlags: 4096
+FieldValue: Tasks_1
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 15
+FieldFlags: 4096
+FieldValue: share1
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 18
+FieldFlags: 4096
+FieldValue: Tasks_2
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 19
+FieldFlags: 4096
+FieldValue: share2
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 22
+FieldFlags: 4096
+FieldValue: Tasks_3
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 23
+FieldFlags: 4096
+FieldValue: share3
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 26
+FieldFlags: 4096
+FieldValue: Tasks_4
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 27
+FieldFlags: 4096
+FieldValue: share4
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 30
+FieldFlags: 4096
+FieldValue: Tasks_5
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 31
+FieldFlags: 4096
+FieldValue: share5
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 34
+FieldFlags: 4096
+FieldValue: Tasks_6
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 35
+FieldFlags: 4096
+FieldValue: share6
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 38
+FieldFlags: 4096
+FieldValue: Tasks_7
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 39
+FieldFlags: 4096
+FieldValue: share7
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 45
+FieldFlags: 4096
+FieldValue: 28
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 46
+FieldFlags: 4096
+FieldValue: Requirements_Cell
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 47
+FieldFlags: 4096
+FieldValue: Data_Cell
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 48
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: 49
+FieldFlags: 4096
+FieldJustification: Left
