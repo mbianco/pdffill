@@ -19,7 +19,7 @@ if __name__ == "__main__":
 	cmd.add_argument("--from_date", "-f", help="Valid from")
 	cmd.add_argument("--internal", "-i", help="Internal Designation")
 	cmd.add_argument("--date", "-d", help="Date of today")
-	cmd.add_argument("--operational", "-o", help="Operational Function", type=int, default=1)
+	cmd.add_argument("--operational", "-o", help="Operational Function", type=int, default=9)
 	cmd.add_argument("--show", help="Show table of drop-box entries", action='store_true') 
 
 	args = cmd.parse_args()
